@@ -1,7 +1,7 @@
 name: lint Python Code
 on:
   push:
-    branches: [main]
+    branches: [main, github-actions-tutorial]
   pull_request:
     branches: [main]
   workflow_dispatch:
